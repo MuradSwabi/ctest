@@ -10,6 +10,7 @@ import org.springframework.stereotype.Repository;
 public interface StudentRepository extends JpaRepository<Student, Integer> {
 
 @Query("from Student where Student .id=3")
+// sdldf lsd fs
      Student findByi(int id);
 
 }
